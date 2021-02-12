@@ -1,0 +1,23 @@
+@import "variables";
+
+.btn {
+  border: none;
+  color: $color-white;
+  background: transparent;
+  font-weight: bold;
+  font-size: $font;
+  cursor: pointer;
+
+  &:disabled {
+    color: $color-light-blue;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: $margin/2 0;
+}

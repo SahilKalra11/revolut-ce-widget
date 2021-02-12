@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeInput matches to snapshot 1`] = `
+<section
+  className="wallet"
+>
+  <h3>
+    Your wallet:
+  </h3>
+  <ul
+    className="wallet__list"
+  >
+    <li
+      className="wallet__item"
+    >
+      <b>
+        USD
+      </b>
+      :
+      $100
+    </li>
+    <li
+      className="wallet__item"
+    >
+      <b>
+        GBP
+      </b>
+      :
+      £100
+    </li>
+    <li
+      className="wallet__item"
+    >
+      <b>
+        EUR
+      </b>
+      :
+      €100
+    </li>
+  </ul>
+</section>
+`;

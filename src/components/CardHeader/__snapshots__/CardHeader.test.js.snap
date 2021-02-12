@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardHeader matches to snapshot 1`] = `
+<header
+  className="card-header"
+>
+  <button
+    className="btn"
+    disabled={true}
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Cancel
+  </button>
+  <div
+    className="card-header_rate"
+  >
+    $1 = €1.2
+  </div>
+  <button
+    className="btn"
+    disabled={true}
+    onClick={[MockFunction]}
+    type="submit"
+  >
+    Exchange
+  </button>
+</header>
+`;

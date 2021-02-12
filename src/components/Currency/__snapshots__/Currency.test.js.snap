@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency matches to snapshot 1`] = `
+<section
+  className="exchange__currency"
+>
+  <div
+    className="exchange__currency-name"
+  >
+    USD
+  </div>
+</section>
+`;

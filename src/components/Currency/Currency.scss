@@ -1,0 +1,11 @@
+@import '../../utilities/variables';
+@import '../../utilities/mixins';
+
+.exchange__currency-name {
+  @include currency-style;
+}
+
+li .exchange__currency-name {
+  color: $color-blue;
+  font-size: 2rem;
+}

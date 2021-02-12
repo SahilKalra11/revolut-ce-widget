@@ -1,0 +1,10 @@
+@import "variables";
+
+@mixin currency-style {
+  font-size: $font-xl;
+  text-shadow: $text-shadow;
+  color: $color-white !important;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}

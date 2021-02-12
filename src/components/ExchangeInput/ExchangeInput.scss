@@ -1,0 +1,14 @@
+@import '../../utilities/variables';
+@import '../../utilities/mixins';
+
+.exchange__input {
+  @include currency-style;
+  width: 100%;
+  background: transparent;
+  text-align: right;
+}
+
+.exchange__action {
+  flex: 50%;
+  text-align: right;
+}

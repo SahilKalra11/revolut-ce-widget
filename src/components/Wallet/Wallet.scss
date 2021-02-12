@@ -1,0 +1,33 @@
+@import '../../utilities/variables';
+
+.wallet {
+  background: $color-white;
+  color: $color-blue;
+  padding: $padding-sm $padding;
+  border-radius: 40px;
+  li{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  &__list {
+    display: flex;
+    margin: 0;
+  }
+
+  &__item {
+    list-style: none;
+    margin-right: $margin;
+    margin:auto
+  }
+}
+
+@media only screen and (min-width: 414px){
+  .wallet {
+    max-width: 400px;
+  width: 100%;
+  margin: auto;
+  }
+}

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card matches to snapshot 1`] = `
+<section
+  className="card-slider"
+>
+  <div
+    className="exchange"
+  >
+    <div
+      className="MuiInputBase-root MuiInput-root MuiInput-underline"
+      onClick={[Function]}
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="label select"
+        className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+        id="select"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <section
+          className="exchange__currency"
+        >
+          <div
+            className="exchange__currency-name"
+          >
+            USD
+          </div>
+        </section>
+      </div>
+      <input
+        aria-hidden={true}
+        className="MuiSelect-nativeInput"
+        onAnimationStart={[Function]}
+        onChange={[Function]}
+        tabIndex={-1}
+        value="USD"
+      />
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSelect-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+    <div
+      className="exchange__currency-wallet"
+    >
+      You have 
+      $
+      100
+    </div>
+  </div>
+  <section
+    className="exchange__action"
+  >
+    <input
+      className="exchange__input"
+      onChange={[MockFunction]}
+      type="text"
+      value={10}
+    />
+    <div
+      className="exchange__course"
+    >
+      
+    </div>
+  </section>
+</section>
+`;

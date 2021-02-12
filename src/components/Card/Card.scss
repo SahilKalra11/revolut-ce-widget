@@ -1,0 +1,63 @@
+@import '../../utilities/variables';
+$border: 3vh;
+
+.card-slider {
+  
+  text-align: center;
+  position: relative;
+  height: 50%;
+  transform-origin: center center;
+  display: flex;
+  align-items: center;
+  padding: 0 $padding;
+  box-sizing: border-box;
+  color: $color-white !important;
+  &:last-child{
+    background: rgba(0, 0, 0, 0.2);
+  }
+  &:first-child::after {
+    width: 0;
+    height: 0;
+    border-left: $border solid transparent;
+    border-right: $border solid transparent;
+    margin: 0 auto;
+    border-top: $border solid $color-blue;
+    position: absolute;
+    bottom: -$border;
+    content: '';
+    z-index: 1;
+    left: 0;
+    right: 0;
+  }
+}
+
+.exchange {
+  flex: 50%;
+  font-size: $font-s;
+  text-align: left;
+}
+
+.exchange__currency-wallet {
+  margin-top: $margin;
+}
+
+.MuiInputBase-root.MuiInput-root {
+  line-height: $font-xl;
+  color: $color-white;
+}
+
+.MuiSvgIcon-root {
+  fill: $color-white !important;
+}
+
+.MuiList-root.MuiList-padding {
+  padding: 0;
+}
+
+
+.MuiMenuItem-root .exchange__currency-name {
+  color: $color-light-blue !important;
+  &:hover {
+    color: $color-blue !important;
+  }
+}

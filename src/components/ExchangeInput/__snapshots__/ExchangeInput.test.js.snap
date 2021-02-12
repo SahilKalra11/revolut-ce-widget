@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeInput matches to snapshot 1`] = `
+<section
+  className="exchange__action"
+>
+  <input
+    className="exchange__input"
+    onChange={[MockFunction]}
+    type="text"
+    value={10}
+  />
+  <div
+    className="exchange__course"
+  >
+    
+  </div>
+</section>
+`;

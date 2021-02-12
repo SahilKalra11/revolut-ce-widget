@@ -1,0 +1,14 @@
+@import '../../utilities/variables';
+
+.card-header {
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  padding: $padding/2 $padding;
+  
+
+  &__list {
+    list-style: none;
+    display: flex;
+  }
+}
